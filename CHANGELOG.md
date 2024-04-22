@@ -1,4 +1,4 @@
-# ✨ Changelog (`v1.3.8`)
+# ✨ Changelog (`v2.0.1`)
 
 All notable changes to this project will be documented in this file.
 
@@ -8,11 +8,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Version Info
 
 ```text
-This version -------- v1.3.8
+This version -------- v2.0.1
 Previous version ---- v1.3.8
 Initial version ----- v1.3.8
-Total commits ------- 1
+Total commits ------- 2
 ```
+
+## [v2.0.1] - 2024-03-13
+
+### :lock: Security
+
+* dependency and runtime patch policy
+* use latest dotnet runtime v8.0.3
+
+## [v2.0.0] - 2024-02-12
+
+BREAKING CHANGE: Updated service to .NET 8 LTS.
+
+### 🔄 Changed
+* update to dotnet 8
+
+### 🔒 Security
+* apply patch policy
 
 ## [v1.3.8] - 2024-01-31
 

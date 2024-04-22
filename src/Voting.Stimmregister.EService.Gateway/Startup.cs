@@ -20,7 +20,7 @@ public class Startup
 
     public Startup(IConfiguration configuration)
     {
-        _appConfig = configuration.Get<AppOptions>();
+        _appConfig = configuration.Get<AppOptions>()!;
         _configuration = configuration;
         Log.Logger = new LoggerConfiguration()
             .ReadFrom.Configuration(configuration)
@@ -47,6 +47,7 @@ public class Startup
 
         services.AddHealthChecks()
                 .ForwardToPrometheus();
+
         ConfigureAuthentication(services.AddVotingLibIam(new() { BaseUrl = _appConfig.IdentityAccessManagementApi }));
     }
 
