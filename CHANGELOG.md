@@ -1,4 +1,4 @@
-# ✨ Changelog (`v2.0.5`)
+# ✨ Changelog (`v2.0.7`)
 
 All notable changes to this project will be documented in this file.
 
@@ -8,11 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Version Info
 
 ```text
-This version -------- v2.0.5
-Previous version ---- v2.0.2
+This version -------- v2.0.7
+Previous version ---- v2.0.5
 Initial version ----- v1.3.8
-Total commits ------- 3
+Total commits ------- 2
 ```
+
+## [v2.0.7] - 2025-01-24
+
+### 🔄 Changed
+
+- use the same json formatter across voting services
+
+## [v2.0.6] - 2024-11-25
+
+### 🔄 Changed
+
+- optimize SourceLink integration and use new ci/cd versioning capabilities
+- prevent duplicated commit ids in product version, only use SourceLink plugin.
+- extend .dockerignore file with additional exclusions
 
 ## [v2.0.5] - 2024-09-03
 
